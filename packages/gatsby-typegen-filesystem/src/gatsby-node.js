@@ -8,13 +8,10 @@ const {
 } = require("graphql");
 const select = require("unist-util-select");
 const path = require("path");
-
 // TODO add support for exiftool fields here.
-
 //exports.registerGraphQLNodes = ({ args }) => {
 //const { ast } = args
 //const nodes = select(ast, `File`)
-
 //const fields = {
 //urlPathname: {
 //type: GraphQLString,
@@ -31,7 +28,6 @@ const path = require("path");
 //},
 //},
 //}
-
 //return [
 //{
 //type: `File`,
